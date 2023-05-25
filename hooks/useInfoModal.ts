@@ -12,6 +12,6 @@ const useInfoModal = create<ModalStoreInterface>((set) => ({
     isOpen: false,
     openModal: (movieId: string) => set({ isOpen: true, movieId }),
     closeModal: () => set({ isOpen: false, movieId: undefined }),
-}));
+}))
 
 export default useInfoModal

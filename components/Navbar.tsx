@@ -5,7 +5,7 @@ import AccountMenu from "./AccountMenu"
 import { BsChevronDown, BsSearch, BsBell } from 'react-icons/bs'
 
 const TOP_OFFSET = 66
-
+ 
 const Navbar = () => {
     const [showMobileMenu, setShowMobileMenu] = useState(false)
     const [showAccountMenu, setShowAccountMenu] = useState(false)
